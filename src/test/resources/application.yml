@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: test
+  datasource:
+    url: jdbc:tc:postgresql:16:///postgres?TC_DAEMON=true
+    username: postgres
+    password: password
+
