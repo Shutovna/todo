@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    generate-ddl: true
+  profiles:
+    active: dev
+  application:
+    name:
+      todo-list
+  datasource:
+    url: jdbc:postgresql://todo-db:5432/postgres
+    username: postgres
+    password: password
+    hikari:
+      connectionTimeout: '20000'
+      maximumPoolSize: '5'
